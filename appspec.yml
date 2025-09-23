@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/s3://nextwork-devops-cicd-joe/6c204dc6-3d86-4acc-8939-6074d13d5964.gz
+  - source: /target/nextwork-web-project.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
